@@ -22,11 +22,46 @@
 <style>
   .carousel-inner .item img{
     height:1000px;
+    
   }
   .carousel-caption {
     color: white;
     top: 20%;
     
+  }
+  
+  @keyframes ccolor {
+     0%  {color: #ccccff;}
+    25%  {color: #ccffff;}
+    50%  {color: #ff8080;}
+    100% {color: #ffffcc;}
+}
+  #slogan{
+     animation-name: ccolor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    font-style: italic;
+  }
+  @keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    20% {
+       opacity: 1;
+    }
+    85% {
+       opacity: 1;
+    }
+    100% {
+       opacity: 1;
+    }
+}
+  #title{
+    opacity: 1;
+    animation: fadeIn 6s;
+    color: white;
+    text-shadow: 3px 3px 4px black;
+    font-weight: bold;
   }
   /* small+ */
   
@@ -95,8 +130,8 @@
       <div class="item active">
         <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Hot_air_balloons_in_leon.jpg">
         <div class="carousel-caption">
-          <h1>Skydance Hot Air Balloon Rides</h1>
-          <h2>Ride with the wind. Dance with the sky.</h2>
+          <h1 id="title">Skydance Hot Air Balloon Rides</h1>
+          <h2 id="slogan">Ride with the wind. Dance with the sky.</h2>
         </div>
       </div>
       <div class="item">
