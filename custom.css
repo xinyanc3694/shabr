@@ -1,106 +1,128 @@
 .carousel-inner .item img {
-    height: 1000px;
+  height: 1000px;
+}
+
+.carousel-caption {
+  color: white;
+  top: 20%;
+}
+
+#wtext {
+  color: white;
+  text-shadow: 3px 3px 4px #ff9999;
+}
+
+.well {
+  background: linear-gradient(to bottom right, rgba(255, 204, 255,0.1), rgba(179, 217, 255,0.75), transparent), url("https://cdn.pixabay.com/photo/2015/12/08/00/55/hot-air-balloons-1082179_960_720.jpg") no-repeat center; 
+  background-size: cover;
+}
+.jumbotron{
+   background: linear-gradient(to bottom right, rgba(51, 102, 255,0.6),rgba(255, 117, 26,0.5), transparent), url("https://static.pexels.com/photos/31306/pexels-photo-31306.jpg") no-repeat center; 
+  background-size: cover;
+}
+#jtext{
+  color: black;
+}
+
+p {
+  text-align: center;
+}
+
+@keyframes ccolor {
+  0% {
+    color: #ccccff;
   }
-  
-  .carousel-caption {
-    color: white;
-    top: 20%;
+  25% {
+    color: #ccffff;
   }
-  
-  p {
-    text-align: center;
+  50% {
+    color: #ff8080;
   }
-  
-  #jcu {}
-  
-  @keyframes ccolor {
-    0% {
-      color: #ccccff;
-    }
-    25% {
-      color: #ccffff;
-    }
-    50% {
-      color: #ff8080;
-    }
-    100% {
-      color: #ffffcc;
-    }
+  100% {
+    color: #ffffcc;
   }
-  
-  #slogan {
-    animation-name: ccolor;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    font-style: italic;
+}
+
+#slogan {
+  animation-name: ccolor;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  font-style: italic;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    20% {
-      opacity: 1;
-    }
-    85% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  
-  #title {
+  20% {
     opacity: 1;
-    animation: fadeIn 6s;
-    color: white;
-    text-shadow: 3px 3px 4px black;
-    font-weight: bold;
   }
-  /*@media only screen and (min-width : 480px) {*/
-  /*h1{*/
-  /*   font-size: 20px;*/
-  /*}*/
-  /*h2{*/
-  /*   font-size: 10px;*/
-  /*}*/
-  /*}*/
-  /* small+ */
-  
-  @media(min-width:768px) {
-    h1 {
-      font-size: 40px;
-    }
-    h2 {
-      font-size: 20px;
-    }
-    p {
-      font-size: 10px;
-    }
+  85% {
+    opacity: 1;
   }
-  /* medium+ */
-  
-  @media(min-width:992px) {
-    h1 {
-      font-size: 60px;
-    }
-    h2 {
-      font-size: 40px;
-    }
-    p {
-      font-size: 20px;
-    }
+  100% {
+    opacity: 1;
   }
-  /* large+ */
-  
-  @media(min-width:1200px) {
-    h1 {
-      font-size: 80px;
-    }
-    h2 {
-      font-size: 60px;
-    }
-    p {
-      font-size: 40px;
-    }
+}
+
+#title {
+  opacity: 1;
+  animation: fadeIn 6s;
+  color: white;
+  text-shadow: 3px 3px 4px black;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 10px;
+}
+
+@media(min-width:768px) {
+  h1 {
+    font-size: 40px;
   }
+  h2 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+
+
+/* medium+ */
+
+@media(min-width:992px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 30px;
+  }
+}
+
+
+/* large+ */
+
+@media(min-width:1200px) {
+  h1 {
+    font-size: 80px;
+  }
+  h2 {
+    font-size: 60px;
+  }
+  p {
+    font-size: 40px;
+  }
+}

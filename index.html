@@ -23,22 +23,34 @@
 <body>
   <div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
     <div class="container-fluid">
-      <div class="navbar-header"><a class="navbar-brand" href="#">SHABR</a>
+      <div class="navbar-header"> <a class="navbar-brand" href="#">SH<span><img src="img/hot-air-balloon-clipart.png" width="15px" height="20px"></span>BR</a>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
             </button>
       </div>
       <div class="collapse navbar-collapse navbar-menubuilder">
         <ul class="nav navbar-nav navbar-left">
-          <li><a href="#carousel">Home</a>
+          <li><a href="#carousel">Home <span class="glyphicon glyphicon-home"></span></a>
           </li>
-          <li><a href="#info">Products</a>
+          <li><a href="#welcome">Welcome <span class="glyphicon glyphicon-heart"></span></a>
           </li>
-          <li><a href="#contact">Contact Us</a>
-          </li>
-        </ul>
+          <span>
+          <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Info<span class="glyphicon glyphicon-book"></span><span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="#time">Time</a></li>
+            <li><a href="#weather">Weather</a></li>
+            <li><a href="#flight">Flight</a></li>
+            <li><a href="#participation">Participation</a></li>
+          </ul>
       </div>
+      </span>
+      <li><a href="#contact">Contact Us <span class="glyphicon glyphicon-envelope"></span></a>
+      </li>
+      </ul>
     </div>
   </div>
+  </div>
+
 
   <div id="carousel-example" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -111,19 +123,32 @@
       <span class="glyphicon glyphicon-chevron-right"></span>
     </a>
   </div>
+  <div id="welcome">
+    <div class="well well-lg">
+      <h1 id="wtext">Welcome</h1>
+      <h2 id="wtext">Fun for Everyone</h2>
+      <p id="wtext">Come make a new memory with us. There's nothing else like it.</p>
+      <p id="wtext">Fun for both adults and kids. All are welcome!</p>
+      <p id="wtext">Afraid of heights? You won't be after you slow-dance with the sky.</p>
+    </div>
+  </div>
   <div id="info">
+    <div id="time"></div>
+    <div id="weather"></div>
+    <div id="flight"></div>
+    <div id="participation"></div>
 
   </div>
   <div id="contact">
     <div class="jumbotron">
-      <p>Contact: We’d love to hear from you</p>
-      <p>Address</p>
-      <p>SHABR, Inc.</p>
-      <p>1234 Shabr Road</p>
-      <p>Somewhere, OT 80013</p>
-      <p>Phone(555) 555-1234</p>
+      <p id="jtext">Contact: We’d love to hear from you</p>
+      <p id="jtext">Address</p>
+      <p id="jtext">SHABR, Inc.</p>
+      <p id="jtext">1234 Shabr Road</p>
+      <p id="jtext">Somewhere, OT 80013</p>
+      <p id="jtext">Phone(555) 555-1234</p>
       <br>
-      <p>Copyright © 2016 | SHABR</p>
+      <p id="jtext">Copyright © 2016 | SHABR</p>
     </div>
   </div>
 </body>
