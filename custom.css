@@ -1,10 +1,10 @@
 .carousel-inner .item img {
-  height: 1000px;
+  height: 500px;
 }
 
 .carousel-caption {
   color: white;
-  top: 20%;
+  top: 30%;
 }
 
 #wtext {
@@ -12,8 +12,14 @@
   text-shadow: 3px 3px 4px #ff9999;
 }
 
+#itext{
+height:160px;
+font-size: 15px;
+}
+
+
 .well {
-  background: linear-gradient(to bottom right, rgba(255, 204, 255,0.1), rgba(179, 217, 255,0.75), transparent), url("https://cdn.pixabay.com/photo/2015/12/08/00/55/hot-air-balloons-1082179_960_720.jpg") no-repeat center; 
+  background: linear-gradient(to bottom right, rgba(255, 204, 255,0.1), rgba(179, 217, 255,0.75), transparent), url("http://cdn.charisma.media/wp-content/uploads/2016/01/photo-1447438972698-474ef5651bb5.jpeg") no-repeat center; 
   background-size: cover;
 }
 .jumbotron{
@@ -80,11 +86,23 @@ h1 {
 h2 {
   font-size: 20px;
 }
-
-p {
-  font-size: 10px;
+h3{
+  font-size: 20px;
 }
 
+p {
+  font-size: 15px;
+}
+
+/* Extra Small */ 
+    @media only screen and (min-width : 480px) {
+#itext{
+height:100px;
+}
+}
+    
+
+/* small*/
 @media(min-width:768px) {
   h1 {
     font-size: 40px;
@@ -92,9 +110,25 @@ p {
   h2 {
     font-size: 30px;
   }
+  h3{
+    font-size: 25px;
+  }
   p {
     font-size: 20px;
   }
+  #itext{
+height:100px;
+font-size: 15px;
+
+}
+.carousel-inner .item img {
+  height: 650px;
+}
+
+.carousel-caption {
+  color: white;
+  top: 35%;
+}
 }
 
 
@@ -107,9 +141,24 @@ p {
   h2 {
     font-size: 40px;
   }
+  h3{
+    font-size: 35px;
+  }
   p {
     font-size: 30px;
   }
+  #itext{
+height:270px;
+font-size: 18px;
+}
+.carousel-inner .item img {
+  height: 790px;
+}
+
+.carousel-caption {
+  color: white;
+  top: 35%;
+}
 }
 
 
@@ -122,7 +171,22 @@ p {
   h2 {
     font-size: 60px;
   }
+  h3{
+    font-size: 50px;
+  }
   p {
     font-size: 40px;
   }
+  #itext{
+height:345px;
+font-size: 22px;
+}
+.carousel-inner .item img {
+  height: 900px;
+}
+
+.carousel-caption {
+  color: white;
+  top: 32%;
+}
 }
