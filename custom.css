@@ -10,57 +10,62 @@
 #wtext {
   color: white;
   text-shadow: 3px 3px 4px #ff9999;
- font-family: 'Sansita', sans-serif;
+  font-family: 'Sansita', sans-serif;
 }
 
-#wotext{
+#wotext {
   color: white;
   text-shadow: 3px 3px 4px #ff9999;
   font-family: 'Wendy One', sans-serif;
-   animation-name: ccolor;
+  animation-name: ccolor;
   animation-duration: 4s;
   animation-iteration-count: infinite;
+  text-align: center;
 }
 
-#wttext{
+#wttext {
   color: white;
   text-shadow: 3px 3px 4px #ff9999;
   font-family: 'Philosopher', sans-serif;
 }
 
-
-#itext{
-height:160px;
-font-size: 15px;
-color:#000033;
-font-family: 'Arsenal', sans-serif;
-
+#itext {
+  height: 160px;
+  font-size: 15px;
+  color: #000033;
+  font-family: 'Arsenal', sans-serif;
 }
 
+#iintro{
+  color:#004080;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
 
-#testimonials{
+#testimonials {
   font-family: 'Patrick Hand', cursive;
 }
 
-#tname{
+#tname {
   font-family: 'Dancing Script', cursive;
 }
 
 .well {
-  background: linear-gradient(to bottom right, rgba(255, 204, 255,0.1), rgba(179, 217, 255,0.75), transparent), url("http://cdn.charisma.media/wp-content/uploads/2016/01/photo-1447438972698-474ef5651bb5.jpeg") no-repeat center; 
+  background: linear-gradient(to bottom right, rgba(255, 204, 255, 0.1), rgba(179, 217, 255, 0.75), transparent), url("http://cdn.charisma.media/wp-content/uploads/2016/01/photo-1447438972698-474ef5651bb5.jpeg") no-repeat center;
   background-size: cover;
 }
-.jumbotron{
-   background: linear-gradient(to bottom right, rgba(51, 102, 255,0.6),rgba(255, 117, 26,0.5), transparent), url("https://static.pexels.com/photos/31306/pexels-photo-31306.jpg") no-repeat center; 
+
+.jumbotron {
+  background: linear-gradient(to bottom right, rgba(51, 102, 255, 0.6), rgba(255, 117, 26, 0.5), transparent), url("https://static.pexels.com/photos/31306/pexels-photo-31306.jpg") no-repeat center;
   background-size: cover;
 }
-#jtext{
+
+#jtext {
   color: black;
 }
 
 p {
   text-align: center;
-
 }
 
 @keyframes ccolor {
@@ -108,7 +113,6 @@ p {
   text-shadow: 3px 3px 4px black;
   font-weight: bold;
   font-family: 'Capriola', sans-serif;
-  
 }
 
 h1 {
@@ -118,25 +122,29 @@ h1 {
 h2 {
   font-size: 20px;
 }
-h3{
+
+h3 {
   font-size: 20px;
-font-family: 'Alegreya Sans SC', sans-serif;
-color:#336699;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: #336699;
 }
 
 p {
   font-size: 15px;
 }
 
-/* Extra Small */ 
-    @media only screen and (min-width : 480px) {
-#itext{
-height:100px;
+
+/* Extra Small */
+
+@media only screen and (min-width: 480px) {
+  #itext {
+    height: 100px;
+  }
 }
-}
-    
+
 
 /* small*/
+
 @media(min-width:768px) {
   h1 {
     font-size: 40px;
@@ -144,25 +152,23 @@ height:100px;
   h2 {
     font-size: 30px;
   }
-  h3{
+  h3 {
     font-size: 25px;
   }
   p {
     font-size: 20px;
   }
-  #itext{
-height:100px;
-font-size: 15px;
-
-}
-.carousel-inner .item img {
-  height: 650px;
-}
-
-.carousel-caption {
-  color: white;
-  top: 35%;
-}
+  #itext {
+    height: 100px;
+    font-size: 15px;
+  }
+  .carousel-inner .item img {
+    height: 650px;
+  }
+  .carousel-caption {
+    color: white;
+    top: 35%;
+  }
 }
 
 
@@ -175,26 +181,24 @@ font-size: 15px;
   h2 {
     font-size: 40px;
   }
-  h3{
+  h3 {
     font-size: 35px;
   }
   p {
     font-size: 30px;
   }
-  #itext{
-height:270px;
-font-size: 18px;
+  #itext {
+    height: 270px;
+    font-size: 18px;
+  }
+  .carousel-inner .item img {
+    height: 790px;
+  }
+  .carousel-caption {
+    color: white;
+    top: 35%;
+  }
 }
-.carousel-inner .item img {
-  height: 790px;
-}
-
-.carousel-caption {
-  color: white;
-  top: 35%;
-}
-}
-
 
 
 /* large+ */
@@ -206,22 +210,21 @@ font-size: 18px;
   h2 {
     font-size: 60px;
   }
-  h3{
+  h3 {
     font-size: 50px;
   }
   p {
     font-size: 40px;
   }
-  #itext{
-height:345px;
-font-size: 22px;
-}
-.carousel-inner .item img {
-  height: 900px;
-}
-
-.carousel-caption {
-  color: white;
-  top: 32%;
-}
+  #itext {
+    height: 345px;
+    font-size: 22px;
+  }
+  .carousel-inner .item img {
+    height: 900px;
+  }
+  .carousel-caption {
+    color: white;
+    top: 32%;
+  }
 }
