@@ -10,13 +10,41 @@
 #wtext {
   color: white;
   text-shadow: 3px 3px 4px #ff9999;
+ font-family: 'Sansita', sans-serif;
 }
+
+#wotext{
+  color: white;
+  text-shadow: 3px 3px 4px #ff9999;
+  font-family: 'Wendy One', sans-serif;
+   animation-name: ccolor;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+#wttext{
+  color: white;
+  text-shadow: 3px 3px 4px #ff9999;
+  font-family: 'Philosopher', sans-serif;
+}
+
 
 #itext{
 height:160px;
 font-size: 15px;
+color:#000033;
+font-family: 'Arsenal', sans-serif;
+
 }
 
+
+#testimonials{
+  font-family: 'Patrick Hand', cursive;
+}
+
+#tname{
+  font-family: 'Dancing Script', cursive;
+}
 
 .well {
   background: linear-gradient(to bottom right, rgba(255, 204, 255,0.1), rgba(179, 217, 255,0.75), transparent), url("http://cdn.charisma.media/wp-content/uploads/2016/01/photo-1447438972698-474ef5651bb5.jpeg") no-repeat center; 
@@ -32,6 +60,7 @@ font-size: 15px;
 
 p {
   text-align: center;
+
 }
 
 @keyframes ccolor {
@@ -54,6 +83,7 @@ p {
   animation-duration: 4s;
   animation-iteration-count: infinite;
   font-style: italic;
+  font-family: 'Shadows Into Light', cursive;
 }
 
 @keyframes fadeIn {
@@ -77,6 +107,8 @@ p {
   color: white;
   text-shadow: 3px 3px 4px black;
   font-weight: bold;
+  font-family: 'Capriola', sans-serif;
+  
 }
 
 h1 {
@@ -88,6 +120,8 @@ h2 {
 }
 h3{
   font-size: 20px;
+font-family: 'Alegreya Sans SC', sans-serif;
+color:#336699;
 }
 
 p {
@@ -160,6 +194,7 @@ font-size: 18px;
   top: 35%;
 }
 }
+
 
 
 /* large+ */
