@@ -5,20 +5,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>SHABR</title>
-  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Arsenal|Capriola|Dancing+Script|Josefin+Sans|Patrick+Hand|Philosopher|Sansita|Shadows+Into+Light|Wendy+One" rel="stylesheet">
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Arsenal|Capriola|Dancing+Script|Josefin+Sans|Patrick+Hand|Philosopher|Sansita|Shadows+Into+Light|Wendy+One" rel="stylesheet">
+
   <!--custom-->
   <link rel="stylesheet" href="custom.css">
   <link rel="stylesheet" href="nav.css">
   <script src="script.js"></script>
+
+
+
 </head>
 
 <body>
@@ -35,8 +39,9 @@
           <li><a href="#welcome">Welcome <span class="glyphicon glyphicon-heart"></span></a>
           </li>
 
-
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#info"> Info<span class="glyphicon glyphicon-book"> </span><span class="caret"></span></a>
+          <li class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Info<span class="glyphicon glyphicon-book"> </span>
+  <span class="caret"></span></button>
             <ul class="dropdown-menu">
               <li><a href="#time">Time</a></li>
               <li><a href="#weather">Weather</a></li>
@@ -135,32 +140,34 @@
       <p id="wtext">Afraid of heights? You won't be after you slow-dance with the sky.</p>
     </div>
   </div>
-  
+
   <div id="info">
     <div class="container">
       <div class="row">
-        
+
         <div class="col-xs-12 col-sm-6 col-md-3" id="time" style="background-color:lavender;">
           <h3 id="ititle">Time</h3>
-         <p id= "itext"> Due to climatic conditions, we can safely fly only in the early morning hours with our primary season and most beautiful months being May through November. Since our launch times vary through the seasons, we ask all our guests to call ahead for the exact meeting time.</p>
-          </div>
-          
-    <div class="col-xs-12 col-sm-6 col-md-3" id="weather" style="background-color:lavenderblush;">
-      <h3 id="ititle">Weather</h3>
-     <p id="itext"> High winds and/or inclement weather prevent us from flying. We ask all our guests to contact us in the early afternoon prior to their scheduled flight between 12:00 noon and 2:00 p.m. to verify that the forecasted weather conditions will allow their balloon flight.</p>
-      </div>
-    <div class="col-xs-12 col-sm-6 col-md-3" id="flight" style="background-color:lavender;">
-      <h3 id="ititle">Flight</h3>
-      <p id="itext">Our actual flight time is approximately one to one and a half hours averaging closer to one and a half hours and we suggest to allow three to three and a half hours for the entire adventure.</p>
-      </div>
-    <div class="col-xs-12 col-sm-6 col-md-3" id="participation" style="background-color:lavenderblush;">
-      <h3 id="ititle">Participation</h3>
-     <p id="itext"> We encourage all of our guests, if they wish, to participate in both the inflation and deflation of the balloon. We have found it adds greatly to the fun of the entire ballooning experience.</p>
-      </div>
+          <p id="itext"> Due to climatic conditions, we can safely fly only in the early morning hours with our primary season and most beautiful months being May through November. Since our launch times vary through the seasons, we ask all our guests to call ahead
+            for the exact meeting time.</p>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-3" id="weather" style="background-color:lavenderblush;">
+          <h3 id="ititle">Weather</h3>
+          <p id="itext"> High winds and/or inclement weather prevent us from flying. We ask all our guests to contact us in the early afternoon prior to their scheduled flight between 12:00 noon and 2:00 p.m. to verify that the forecasted weather conditions will allow
+            their balloon flight.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3" id="flight" style="background-color:lavender;">
+          <h3 id="ititle">Flight</h3>
+          <p id="itext">Our actual flight time is approximately one to one and a half hours averaging closer to one and a half hours and we suggest to allow three to three and a half hours for the entire adventure.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3" id="participation" style="background-color:lavenderblush;">
+          <h3 id="ititle">Participation</h3>
+          <p id="itext"> We encourage all of our guests, if they wish, to participate in both the inflation and deflation of the balloon. We have found it adds greatly to the fun of the entire ballooning experience.</p>
+        </div>
       </div>
     </div>
   </div>
-  
+
   <div id="contact">
     <div class="jumbotron">
       <p id="jtext">Contact: We’d love to hear from you</p>
@@ -173,6 +180,10 @@
       <p id="jtext">Copyright © 2016 | SHABR</p>
     </div>
   </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
