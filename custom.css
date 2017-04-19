@@ -7,10 +7,12 @@
   top: 30%;
 }
 
+
 #wtext {
   color: white;
   text-shadow: 3px 3px 4px #ff9999;
   font-family: 'Sansita', sans-serif;
+  text-align: center;
 }
 
 #wotext {
@@ -27,6 +29,7 @@
   color: white;
   text-shadow: 3px 3px 4px #ff9999;
   font-family: 'Philosopher', sans-serif;
+  text-align: center;
 }
 
 #itext {
